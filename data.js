@@ -81,7 +81,7 @@ var skillGroups = [
     icon: "</>",
     skills: [
       { name: "HTML5", percent: 90 },
-      { name: "CSS3", percent: 88 },
+      { name: "CSS3", percent: 80 },
       { name: "JavaScript", percent: 80 },
       { name: "Bootstrap", percent: 75 },
     ],
