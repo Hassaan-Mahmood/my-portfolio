@@ -70,7 +70,7 @@ var aboutFacts = [
 var stats = [
   { number: 20, suffix: "+", label: "Projects Built" },
   { number: 1, suffix: "", label: "Years Learning" },
-  { number: 8, suffix: "+", label: "Certificates" },
+  { number: 2, suffix: "+", label: "Certificates" },
   { number: 5, suffix: "+", label: "Happy Clients" },
 ];
 
