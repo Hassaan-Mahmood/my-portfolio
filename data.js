@@ -71,7 +71,7 @@ var stats = [
   { number: 20, suffix: "+", label: "Projects Built" },
   { number: 1, suffix: "", label: "Years Learning" },
   { number: 2, suffix: "+", label: "Certificates" },
-  { number: 5, suffix: "+", label: "Happy Clients" },
+  { number: 4, suffix: "+", label: "Happy Clients" },
 ];
 
 /* ---------- 5) SKILLS — grouped by category ---------------------------- */
