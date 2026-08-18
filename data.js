@@ -90,7 +90,7 @@ var skillGroups = [
     category: "Tools",
     icon: "#",
     skills: [
-      { name: "Git and GitHub", percent: 70 },
+      { name: "Git and GitHub", percent: 72 },
       { name: "VS Code", percent: 90 },
       { name: "Figma", percent: 60 },
       { name: "Chrome DevTools", percent: 72 },
