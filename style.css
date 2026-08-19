@@ -222,6 +222,7 @@ button:focus-visible {
     box-shadow: var(--shadow);
     transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
 }
+
 .stat-card:hover,
 .skill-card:hover,
 .project-card:hover,

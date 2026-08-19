@@ -47,7 +47,11 @@ var navLinks = [
 /* ---------- 3) SOCIAL LINKS -------------------------------------------- */
 var socialLinks = [
   { name: "GitHub", icon: "GH", link: "https://github.com/Hassaan-Mahmood" },
-  { name: "LinkedIn", icon: "in", link: "https://linkedin.com/in/hassaan-mahmood007" },
+  {
+    name: "LinkedIn",
+    icon: "in",
+    link: "https://linkedin.com/in/hassaan-mahmood007",
+  },
   { name: "Twitter", icon: "X", link: "https://twitter.com/hassaan2980" },
   { name: "Email", icon: "@", link: "mailto:hassaan2980@gmail.com" },
 ];
@@ -97,13 +101,13 @@ var skillGroups = [
     ],
   },
   {
-    category: "Currently Learning",
+    category: "Next Learning",
     icon: "*",
     skills: [
-      { name: "React", percent: 45 },
-      { name: "Node.js", percent: 35 },
-      { name: "Tailwind", percent: 55 },
-      { name: "MongoDB", percent: 30 },
+      { name: "React", percent: 0 },
+      { name: "Node.js", percent: 0 },
+      { name: "Tailwind", percent: 0 },
+      { name: "MongoDB", percent: 0 },
     ],
   },
 ];
@@ -114,67 +118,68 @@ var projects = [
   {
     title: "Calculator App",
     category: "JavaScript",
-    icon: "=",
+    icon: "🔢",
     description:
       "A calculator that handles add, subtract, multiply and divide, and also works with the keyboard.",
     tech: ["HTML", "CSS", "JavaScript"],
-    demo: "#",
-    code: "#",
+    demo: "https://calculator-hm-smit.netlify.app/",
+    code: "https://github.com/Hassaan-Mahmood/Calculator",
     featured: true,
   },
   {
     title: "To Do List",
     category: "JavaScript",
-    icon: "[]",
+    icon: "📝",
     description:
       "Add tasks, mark them complete and delete them. Everything is saved in the browser with localStorage.",
     tech: ["HTML", "CSS", "JavaScript", "localStorage"],
-    demo: "#",
-    code: "#",
+    demo: "https://my-todo-hm.netlify.app/",
+    code: "https://github.com/Hassaan-Mahmood/My-Todo",
     featured: true,
   },
   {
-    title: "Restaurant Website",
-    category: "Website",
-    icon: "&",
+    title: "Tic Tac Toe",
+    category: "JavaScript",
+    icon: "❌⭕",
     description:
       "A responsive website for a local restaurant with a menu, a photo gallery and a booking form.",
     tech: ["HTML", "CSS", "Bootstrap"],
-    demo: "#",
+    demo: "",
     code: "#",
     featured: false,
   },
-  {
-    title: "Weather App",
-    category: "API",
-    icon: "~",
-    description:
-      "Type a city name and see the current weather. Live data comes from the OpenWeather API.",
-    tech: ["JavaScript", "Fetch API", "CSS"],
-    demo: "#",
-    code: "#",
-    featured: true,
-  },
+
   {
     title: "Quiz App",
     category: "JavaScript",
-    icon: "?",
+    icon: "❔",
     description:
       "A ten question quiz with a countdown timer and a score screen. Questions are stored in an array of objects.",
     tech: ["HTML", "CSS", "JavaScript"],
-    demo: "#",
-    code: "#",
+    demo: "https://quiz-mcqs-app.netlify.app/",
+    code: "https://github.com/Hassaan-Mahmood/SMIT_Tic-Tac-Toe",
     featured: false,
   },
   {
     title: "Portfolio Template",
     category: "Website",
-    icon: "@",
+    icon: "🖥️",
     description:
       "The portfolio you are looking at right now. Every section is generated from a single data file.",
     tech: ["HTML", "CSS", "JavaScript"],
-    demo: "#",
-    code: "#",
+    demo: "https://portfolio-student-813040.netlify.app/",
+    code: "https://github.com/Hassaan-Mahmood/Portfolio-website",
+    featured: false,
+  },
+  {
+    title: "Digital Clock",
+    category: "Website",
+    icon: "⏱️",
+    description:
+      "The Digital Clock you are looking at right now. Every code is written by me.",
+    tech: ["HTML", "CSS", "JavaScript"],
+    demo: "https://digital-clock-hm-smit.netlify.app/",
+    code: "https://github.com/Hassaan-Mahmood/Portfolio-website",
     featured: false,
   },
 ];
@@ -183,35 +188,27 @@ var projects = [
 var timeline = [
   {
     type: "education",
-    year: "2023 - 2027",
-    title: "BS Computer Science",
-    place: "NED University, Karachi",
+    year: "2024 - 2026",
+    title: "Associate Degree in Science",
+    place: "Shah Abdul Latif University, Khairpur",
     detail:
-      "Coursework in programming, data structures, databases and web development. Current CGPA 3.6.",
+      "A two-year undergraduate degree providing a a strong foundation in scientific and analytical studies. I have successfully completed ADS part-I with 65% marks and am currently pursuing ADS part-II",
   },
   {
     type: "education",
     year: "2021 - 2023",
     title: "Intermediate, Pre Engineering",
-    place: "Adamjee Government Science College",
+    place: "Govt Boys Higher Secondary School, Khanpur Mahar",
     detail:
-      "Graduated with an A grade and served as an active member of the college computer society.",
+      "Graduated with an B grade and served as an active member of the college computer society.",
   },
   {
     type: "experience",
-    year: "2024 - Present",
-    title: "Freelance Web Developer",
-    place: "Fiverr and Upwork",
+    year: "March 2026 - Present",
+    title: "Full Stack Development",
+    place: "Saylani Mass IT Training",
     detail:
-      "Build landing pages and portfolio websites for small businesses, from first draft to final handover.",
-  },
-  {
-    type: "experience",
-    year: "Summer 2024",
-    title: "Front End Intern",
-    place: "TechSol Pvt Ltd",
-    detail:
-      "Worked with the team on sections of the company website and improved the responsive layout.",
+      "Also, Currently pursuing a Web Development Course at Saylani Mass IT Training (SMIT), gaining practical experience in HTML, CSS, Bootstrap, JavaScript, DOM manipulation, Git & Github through hands-on projects and assignment.",
   },
 ];
 
@@ -219,23 +216,16 @@ var timeline = [
 var certificates = [
   {
     title: "Web Development Bootcamp",
-    issuer: "Saylani Mass IT",
+    issuer: "BanoQabil",
+    year: "2024",
+    link: "https://banoqabil.pk",
+  },
+  {
+    title: "MS Office",
+    issuer: "Al Shams Institute",
     year: "2024",
     link: "#",
   },
-  {
-    title: "JavaScript Essentials",
-    issuer: "Coursera",
-    year: "2024",
-    link: "#",
-  },
-  {
-    title: "Responsive Web Design",
-    issuer: "freeCodeCamp",
-    year: "2023",
-    link: "#",
-  },
-  { title: "Git and GitHub Basics", issuer: "Udemy", year: "2023", link: "#" },
 ];
 
 /* ---------- 9) SERVICES ------------------------------------------------- */
@@ -293,14 +283,13 @@ var contactInfo = [
   {
     icon: "@",
     label: "Email",
-    value: "ali.huzaifa@example.com",
-    link: "mailto:ali.huzaifa@example.com",
+    value: "hassaan2980@gmail.com",
+    link: "mailto:hassaan2980@gmail.com",
   },
   {
     icon: "#",
     label: "Phone",
-    value: "+92 300 1234567",
-    link: "tel:+923001234567",
+    value: "+92 319 0459182",
   },
   { icon: "^", label: "Location", value: "Karachi, Pakistan", link: "#" },
   {
@@ -327,7 +316,7 @@ var footerInfo = {
   ctaText: "Have a project in mind?",
   ctaSub: "I reply to every message, usually within a day.",
   ctaButton: "Start a conversation",
-  owner: "Ali Huzaifa", // the year is added automatically, so it never goes stale
+  owner: "Hassaan Mahmood", // the year is added automatically, so it never goes stale
   rights: "All rights reserved.",
   builtWith: "Built with HTML, CSS and vanilla JavaScript.",
 };
