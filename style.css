@@ -1143,7 +1143,6 @@ button:focus-visible {
   right: auto;
   left: -9px;
 }
-
 .tl-card {
   padding: var(--card-pad);
 }
@@ -1364,10 +1363,9 @@ button:focus-visible {
 
 .footer-main {
   display: grid;
-  grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr) minmax(
-      0,
-      1.2fr
-    ) minmax(0, 1.3fr);
+  grid-template-columns:
+    minmax(0, 1.7fr) minmax(0, 1fr) minmax(0, 1.2fr)
+    minmax(0, 1.3fr);
   gap: clamp(28px, 3.4vw, 40px);
   padding-bottom: var(--s-12);
 }
