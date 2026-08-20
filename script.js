@@ -604,50 +604,6 @@ function makeServices(gridBox) {
   gridBox.innerHTML = html;
 }
 
-/* =========================================================
-   13) TESTIMONIAL CARDS
-   ========================================================= */
-// function makeTestimonials(gridBox) {
-//   var html = "";
-//   var firstLetter;
-//   var i;
-
-//   for (i = 0; i < testimonials.length; i++) {
-//     /* The round avatar shows the first letter of the person's name */
-//     firstLetter = toSafeText(testimonials[i].name.charAt(0));
-
-//     html +=
-//       "<figure class='testi-card'>" +
-//       "<div class='quote' aria-hidden='true'>&ldquo;</div>" +
-//       "<blockquote><p>" +
-//       toSafeText(testimonials[i].message) +
-//       "</p></blockquote>" +
-//       "<figcaption class='testi-person'>" +
-//       "<div class='avatar' aria-hidden='true'>" +
-//       firstLetter +
-//       "</div>" +
-//       "<div>" +
-//       "<h4>" +
-//       toSafeText(testimonials[i].name) +
-//       "</h4>" +
-//       "<span>" +
-//       toSafeText(testimonials[i].role) +
-//       "</span>" +
-//       "</div>" +
-//       "</figcaption>" +
-//       "</figure>";
-//   }
-
-//   gridBox.innerHTML = html;
-// }
-
-// /* =========================================================
-//    14) CONTACT CARDS, NOTE AND EMAIL BUTTON
-
-//    There is no message form on purpose. A form needs a server behind it to
-//    deliver anything, and this template is meant to run from plain files, so
-//    the cards link straight to the real email address and phone number.
-//    ========================================================= */
 function makeContact(cardsBox, noteBox, mailButton) {
   var html = "";
   var i;

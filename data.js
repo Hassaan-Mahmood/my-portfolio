@@ -256,28 +256,6 @@ var services = [
   },
 ];
 
-/* ---------- 10) TESTIMONIALS -------------------------------------------- */
-// var testimonials = [
-//   {
-//     name: "Bilal Ahmed",
-//     role: "Owner, Bilal Traders",
-//     message:
-//       "The work was delivered on time and the website turned out exactly the way I described it. Communication was clear throughout.",
-//   },
-//   {
-//     name: "Sana Malik",
-//     role: "Classmate",
-//     message:
-//       "A huge help on our semester project. The way JavaScript concepts were explained finally made them click for me.",
-//   },
-//   {
-//     name: "Usman Sheikh",
-//     role: "Team Lead, TechSol",
-//     message:
-//       "Genuinely eager to learn during the internship and finished every assigned task ahead of the deadline.",
-//   },
-// ];
-
 /* ---------- 11) CONTACT CARDS ------------------------------------------- */
 var contactInfo = [
   {
