@@ -75,7 +75,7 @@ var stats = [
   { number: 20, suffix: "+", label: "Projects Built" },
   { number: 1, suffix: "", label: "Years Learning" },
   { number: 2, suffix: "+", label: "Certificates" },
-  { number: 4, suffix: "+", label: "Happy Clients" },
+  { number: 5+, suffix: "+", label: "Technologies" },
 ];
 
 /* ---------- 5) SKILLS — grouped by category ---------------------------- */
@@ -86,7 +86,8 @@ var skillGroups = [
     skills: [
       { name: "HTML5", percent: 90 },
       { name: "CSS3", percent: 80 },
-      { name: "JavaScript", percent: 60 },
+      { name: "JavaScript", percent: 95 },
+      { name: "TypeScript", percent: 90 },
       { name: "Bootstrap", percent: 75 },
     ],
   },
@@ -215,10 +216,10 @@ var timeline = [
 /* ---------- 8) CERTIFICATES --------------------------------------------- */
 var certificates = [
   {
-    title: "Web Development Bootcamp",
-    issuer: "BanoQabil",
-    year: "2024",
-    link: "https://banoqabil.pk",
+    title: "Web Development",
+    issuer: "SMIT",
+    year: "2026 - Present",
+    link: "https://www.linkedin.com/company/saylaniit/",
   },
   {
     title: "MS Office",
